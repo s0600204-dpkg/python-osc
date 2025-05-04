@@ -1,0 +1,19 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 8768236..86aeaa0 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -25,6 +25,14 @@ classifiers = [
+ [project.urls]
+ Repository = "https://github.com/attwad/python-osc"
+ 
++[tool.setuptools]
++packages = [
++    "pythonosc",
++    "pythonosc.parsing",
++    "pythonosc.test",
++    "pythonosc.test.parsing",
++]
++
+ [tool.mypy]
+ # Would be great to turn this on, however there's too many cases it would break
+ # right now.

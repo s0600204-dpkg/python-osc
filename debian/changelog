@@ -1,5 +1,5 @@
-python-osc (1.9.3) UNRELEASED; urgency=medium
+python-osc (1.9.3-1) UNRELEASED; urgency=medium
 
   * Initial packaging.
 
- -- s0600204 <dev@s0600204>  Thu, 04 May 2025 15:58:00 +0100
+ -- s0600204 <dev@s0600204>  Thu, 04 May 2025 16:47:00 +0100
