@@ -1,0 +1,20 @@
+Source: python-osc
+Section: python
+Priority: optional
+Maintainer: s0600204 <dev@s0600204>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-setuptools
+Standards-Version: 4.6.2
+Homepage: https://github.com/attwad/python-osc.git
+Vcs-Git: https://github.com/s0600204-dpkg/python-osc.git
+
+Package: python3-osc
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends}
+Description: Pure Python Open Sound Control server and client
